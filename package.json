@@ -1,0 +1,16 @@
+{
+  "name": "weibo-bot",
+  "version": "1.0.0",
+  "description": "A Vue.js project",
+  "author": "cyio <icaner@qq.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon --watch index.js index.js",
+    "weibo": "nodemon --watch *.js auto-click.js",
+    "start": "NODE_ENV=production node index.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  }
+}
